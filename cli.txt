@@ -2,7 +2,8 @@ cd yourdirectory
 git init (1)
 git add . (2)
 git commit -m "this is my commit message" (3)
-git remote add origin <adress-of-your-remote-git-repository> (4)
+git remote add origin <adress-of-your-remote-git-repository> (4) git branch -M master
+git push origin master --force 
 git push (5)
 
 git clone --single-branch --branch master https://github.com/dsjs-web/ios12-empty-project-boilerplate.git
